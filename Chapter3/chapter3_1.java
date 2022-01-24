@@ -9,9 +9,19 @@ public class chapter3_1 {
 		}else {
 			System.out.println("DVDを見ます");
 		}
+		
+		String tenki_2 = "晴れ";
+		if(tenki_2.equals("晴れ")){
+			System.out.println("洗濯をします");
+		}else {
+			System.out.println("DVDを見ます");
+		}
+		
+		
 
 //		繰り返し
 		boolean doorClose = false;
+//		trueの場合無限ループ
 		while (doorClose == true) {
 			System.out.println("ノックする");
 			System.out.println("１分待つ");
