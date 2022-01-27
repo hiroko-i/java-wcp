@@ -11,7 +11,7 @@ public class chapter4_2 {
 			System.out.println(value);
 		}
 
-
+//		4_4
 		int[] dna = new int[10];
 		for (int i =0; i < dna.length; i++) {
 			dna[i] = new java.util.Random().nextInt(4);
