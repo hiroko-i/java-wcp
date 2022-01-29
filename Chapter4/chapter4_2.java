@@ -31,7 +31,7 @@ public class chapter4_2 {
 		int num = dna.length;
 		System.out.println(num);
 
-//		文字列型のlength
+//		文字列型のlength 文字数表示（半角全角区別なし）
 		String str = "java練習";
 		System.out.println(str.length());
 	}

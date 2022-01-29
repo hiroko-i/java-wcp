@@ -5,7 +5,7 @@ public class chapter4_6 {
 		int[] array = {1, 2, 3};
 		array = null;
 		array[0] = 10;
-		
+
 		/*
 		 * nullを代入したので何も参照しなくなる
 		 * エラーメッセージ
