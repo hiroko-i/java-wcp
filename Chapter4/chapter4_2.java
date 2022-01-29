@@ -26,5 +26,13 @@ public class chapter4_2 {
 			 * System.out.print(baseChar + " ");
 			 * */
 		}
+
+//		配列のlength
+		int num = dna.length;
+		System.out.println(num);
+
+//		文字列型のlength
+		String str = "java練習";
+		System.out.println(str.length());
 	}
 }
